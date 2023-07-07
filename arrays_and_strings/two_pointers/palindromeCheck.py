@@ -3,7 +3,7 @@
 # A string is a palindrome if it reads the same forward as backward.
 # That means, after reversing it, it is still the same string. For example: "abcdcba", or "racecar".
 
-def palindrome_check(s: str) -> bool:
+def palindromeCheck(s: str) -> bool:
 
     # instantiate a left and right pointer
     left = 0
