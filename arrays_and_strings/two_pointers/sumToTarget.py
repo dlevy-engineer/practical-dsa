@@ -7,7 +7,7 @@ This problem is similar to Two Sum (https://leetcode.com/problems/two-sum/).
 For example, given nums = [1, 2, 4, 6, 8, 9, 14, 15] and target = 13, return true because 4 + 9 = 13.
 """
 
-def sum_check(num_arr: list, 
+def sumCheck(num_arr: list, 
               target: int) -> bool:
     
     # instantiate pointers on either edge of the number array
