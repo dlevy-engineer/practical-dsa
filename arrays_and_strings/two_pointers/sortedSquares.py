@@ -26,7 +26,7 @@ def sortedSquares(nums: list[int]) -> list[int]:
     output = [0] * len(nums)
 
     # construct a while loop that will only run until the pointers meet or cross
-    while left < right:
+    while left <= right:
 
         # if the absolute value of the left pointer is greater than the absolute value of the right pointer, add the square of it to the back of the output array
         if abs(nums[left]) > abs(nums[right]):
