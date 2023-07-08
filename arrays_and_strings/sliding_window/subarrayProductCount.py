@@ -1,5 +1,6 @@
 """
-Example 3: 713 – Subarray Product Less Than K (https://leetcode.com/problems/subarray-product-less-than-k/)
+Example 3:
+713 – Subarray Product Less Than K (https://leetcode.com/problems/subarray-product-less-than-k/)
 
 Given an array of positive integers nums and an integer k, return the number of subarrays where the product of all the elements in the subarray is strictly less than k.
 

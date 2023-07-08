@@ -1,5 +1,6 @@
 """
-Example 1: Given an array of positive integers nums and an integer k, find the length of the longest subarray whose sum is less than or equal to k.
+Example 1:
+Given an array of positive integers nums and an integer k, find the length of the longest subarray whose sum is less than or equal to k.
 This is the problem we have been talking about above. We will now formally solve it.
 """
 
