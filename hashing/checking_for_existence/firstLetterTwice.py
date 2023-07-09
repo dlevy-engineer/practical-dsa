@@ -25,14 +25,18 @@ s has at least one repeated letter.
 
 def firstLetterTwice(s: str) -> str:
 
-    n = len(s)
-    seen = [''] * n
+    # instantiate a set for O(1) retrieval
+    seen = set()
 
-    for i in range(n):
-        if s[i] in seen:
-            return s[i]
+    # loop over characters in the input string
+    for c in s:
+
+        # if found in set, return the current character
+        if c in seen:
+            return s
         
+        # if not, this is a first encounter so add to the set and move on
         else:
-            seen[i] = s[i]
+            seen.add(c)
 
     return
