@@ -40,8 +40,7 @@ def numNiceSubarrays(nums: list[int],
     for num in nums:
 
         # add to the number of odds seen if the current number is odd
-        if num % 2 == 1:
-            numodds += 1
+        numodds += num % 2
 
         # if numodds - k odds have previously been seen,
         # then the frequency of that occurrence is the number of subarrays ending at the current index that have exactly k odds
