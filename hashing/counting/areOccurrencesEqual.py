@@ -36,3 +36,9 @@ def areOccurrencesEqual() -> bool:
 
     # there should only be one value in the set for a 'good' string
     return len(counts) == 1
+
+
+from collections import Counter
+
+def areOccurrencesEqual():
+    return len(set(Counter(s).values())) == 1
